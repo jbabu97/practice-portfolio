@@ -79,7 +79,8 @@ p{
 
 /* starts exp */
 .exp_section{
-    height: 350px;
+    height: 400px;
+    margin-bottom: 20px;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
