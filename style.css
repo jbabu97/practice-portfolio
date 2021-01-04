@@ -1,0 +1,128 @@
+/* font-family: 'Dancing Script', cursive;
+font-family: 'Poppins', sans-serif; */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2.2rem;
+}
+h3{
+    font-size: 1.5rem;
+    margin: 5px 0;
+}
+p{
+    color: gray;
+}
+
+.clear{
+    content: ' ';
+    clear: both;
+    display: table;
+}
+
+/* starts top section */
+.top_section{
+    height: 520px;
+    background-color: rgb(36, 72, 83);
+}
+
+.fifty_fifty{
+    float: left;
+    width: 40%;
+    margin: 2% 5%;
+    padding: 0 2%;
+}
+.fifty_fifty p{
+    margin: 15px 0;
+    text-align: justify;
+}
+
+.profile_img{
+    width: 100%;
+}
+
+.text_highlight{
+    color: #FF3886;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}
+
+.link_btn{
+    text-decoration: none;
+    padding: 10px 20px;
+    background: linear-gradient(90deg, #3437ec, #6be3f3);
+    color: #FF3886;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 1.3rem;
+}
+
+/* ends top section */
+
+/* starts mid section */
+.mid_section{
+    height: 480px;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+/* ends mid section */
+
+/* starts exp */
+.exp_section{
+    height: 350px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.single_exp{
+    box-shadow: 7px 7px 30px grey;
+    height: 80%;
+    padding-top: 20px;
+}
+#exp_left{
+    border-left: 7px solid;
+    border-image: linear-gradient(#3437ec, #6be3f3);
+    border-image-slice: 1;
+}
+#exp_right{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, #3437ec, #6be3f3);
+    border-image-slice: 1;
+}
+/* ends exp */
+
+/* starts footer */
+footer{
+    background-color: #244853;
+    padding: 20px;
+    text-align: center;
+    transition: ease-in-out, .3s;
+}
+footer i{
+    font-size: 2rem;
+    margin: 15px;
+    padding: 10px 15px;
+    background-color: #3d3232;
+    color: white;
+    border-radius: 5px;
+}
+
+footer i:hover{
+    transform: scale(.8);
+    background-color:  #FF3886;
+}
+footer p{
+    margin-top: 20px;
+}
+/* ends footer */
